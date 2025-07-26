@@ -1,0 +1,27 @@
+directories:
+  output: ./Builds/WinApp
+  buildResources: build
+appId: com.elcalculator.app
+productName: El Calculator
+files:
+  - filter:
+      - '**/*'
+extraResources: []
+win:
+  target: nsis
+  icon: AppMedia/logo.ico
+mac:
+  icon: AppMedia/logo.icns
+linux:
+  icon: AppMedia/logo.png
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: El Calculator
+  license: license.txt
+publish:
+  - provider: generic
+    url: https://your-download-server.com/guardx-updates/
+electronVersion: 34.5.8

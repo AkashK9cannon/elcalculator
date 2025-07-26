@@ -1,0 +1,23 @@
+El Calculator — Desktop Calculator App
+Copyright (c) 2025 Akash Khuntia
+
+Licensed under the MIT License. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction—including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software—subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+The Software is provided "AS IS", without warranty of any kind—express or implied—including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability arising from the use of this Software.
+
+---
+
+Built using the following open-source technologies:
+
+• Chromium — © The Chromium Authors
+• Electron — © Electron contributors
+• Node.js — © Node.js contributors
+• Brain - © Akash Khuntia
+
+Each of these components is licensed under their respective open-source licenses. For more information, please refer to their individual license files.
+
+---
+
+For inquiries or contributions, contact: [sociobuilder@gmail.com] || +91-7064223722

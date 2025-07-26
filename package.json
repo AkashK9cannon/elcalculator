@@ -1,0 +1,55 @@
+{
+  "name": "elcalculator",
+  "displayName": "El Calculator",
+  "version": "1.0.0",
+  "description": "El Calculator",
+  "main": "index.js",
+  "icon": "./AppMedia/logo.png",
+  "scripts": {
+    "test": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.elcalculator.app",
+    "productName": "El Calculator",
+    "directories": {
+      "output": "./Builds/WinApp"
+    },
+    "files": [
+      "**/*"
+    ],
+    "extraResources": [],
+    "win": {
+      "target": "nsis",
+      "icon": "AppMedia/logo.ico"
+    },
+    "mac": {
+      "icon": "AppMedia/logo.icns"
+    },
+    "linux": {
+      "icon": "AppMedia/logo.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "El Calculator",
+      "license": "license.txt"
+    },
+    "publish": [
+      {
+        "provider": "generic",
+        "url": "https://your-download-server.com/guardx-updates/"
+      }
+    ]
+  },
+  "devDependencies": {
+    "electron": "^34.5.8",
+    "electron-builder": "^26.0.12"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}
